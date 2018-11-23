@@ -1,0 +1,1 @@
+select p.*, sum(v.Total), sum(c.Total), sum(v.Total) - sum(c.Total) as ganancias from productos p, ventas v, compras c where v.fecha between "2018-11-20 00:00:00" and "2018-11-24 00:00:00";
