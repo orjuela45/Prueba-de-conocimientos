@@ -81,10 +81,10 @@ $(document).ready(function(){
             resultado= numero3%Divisible;
             if(resultado!=0)
             {
-                alert("no es divisible")
+                alert(matriz2[i] +" no es multiplo de " + Divisible)
             }
             else{
-                alert("si es divisible")
+                alert(matriz2[i] +" si es multiplo de " + Divisible)
             }
         }
     }
